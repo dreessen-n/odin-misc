@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <script>
+        let num1 = Number(prompt('enter a number:'));
+
+        function add7(num1) {
+            return num1 + 7;
+        }
+        
+        function multiply(num2, num3) {
+            return num2 * num3;
+        }
+
+        function capitalize(s) {
+            return s.charAt(0).toUpperCase() + s.slice(1);
+        }
+
+        function lastLetter(s) {
+            return s.charAt((s.length-1));
+        }
+
+        // main program:
+
+        let add_7 = add7(num1);
+        console.log(add_7);
+
+        let mult = multiply(2, 4);
+        console.log(mult);
+
+        let cap = capitalize('string');
+        console.log(cap);
+
+        let lastLet = lastLetter('string');
+        console.log(lastLet);
+
+    </script>
+</body>
+</html>
